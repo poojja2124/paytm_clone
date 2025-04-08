@@ -1,0 +1,663 @@
+body{
+    background-color: rgb(234, 246, 246);
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+html, body {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-y: auto; /* Allows full vertical scrolling */
+    height: 100%;
+}
+.navbar {
+    position: fixed; /* Keeps navbar visible */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .logo p{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 20%;
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    display: inline-block; 
+}
+.nav-links li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    display: inline-block;
+    padding: 10px;
+}
+.nav-links button{
+    color: white;
+    background-color: rgb(2, 2, 73);
+    border-radius: 10px;
+    font-size: 20px;
+}
+span{
+    color: rgb(94, 192, 245);
+}
+.tag{
+    display: flex;
+    margin-right: 400px;
+    padding: 50px;
+    gap: 20px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.tag img{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    align-items: center;
+}
+h1{
+    font-size: 30px;
+    display: flex;
+    display: inline-block;
+    position: relative;
+    left: 1100px;
+    bottom: 115px;
+}
+.one{
+    height: 200px;
+    width: 1300px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.input-box{
+    font-size: 25px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.search-btn{
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+.special-fares{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.special-fares button{
+    color: black;
+    border-radius: 20px;
+    border-color:white;
+    margin-left: 200px;
+    position: relative;
+    bottom: 60px;
+    cursor: pointer;
+    display: flex;
+    background-color: white;
+}
+.six img{
+    height: 150px;
+    width: 400px;
+    position: relative;
+    left: 350px;
+    bottom: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.arrow{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 150px;
+    left: 280px;
+    cursor: pointer;
+}
+.right_arrow{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 1200px;
+    bottom: 180px;
+    cursor: pointer;
+}
+.recharges{
+    height: 300px;
+    width: 600px;
+    background-color: azure;
+    border-radius: 10%;
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+    cursor: pointer;
+}
+.recharges h3{
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+.recharges img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    cursor: pointer;
+}
+.recharges p{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.icon{
+    position: relative;
+    left: 100px;
+    bottom: 125px;
+    cursor: pointer;
+}
+.icon_1{
+    position: relative;
+    left: 200px;
+    bottom: 250px;
+    cursor: pointer;
+}
+.icon_2{
+    position: relative;
+    left: 300px;
+    bottom: 370px;
+    justify-content: center;
+    cursor: pointer;
+}
+.box {
+    height: 70px;
+    width: 550px;
+    background-color: rgb(129, 202, 244);
+    position: relative;
+    bottom: 340px;
+    left: 20px;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.box img {
+    height: 30px;
+    width: 30px;
+    position: relative; 
+    top: 20px; 
+    left: 20px;
+    cursor: pointer;
+}
+
+.box p {
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.bill{
+    height: 300px;
+    width: 600px;
+    background-color: azure;
+    border-radius: 10%;
+    position: relative;
+    left: 800px;
+    bottom:420px;
+    cursor: pointer;
+}
+.bill h3{
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bill img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    cursor: pointer;
+}
+.bill p{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.icon_3{
+    position: relative;
+    left: 100px;
+    bottom: 125px;
+    cursor: pointer;
+}
+.icon_4{
+    position: relative;
+    left: 200px;
+    bottom: 250px;
+    cursor: pointer;
+}
+.icon_5{
+    position: relative;
+    left: 300px;
+    bottom: 370px;
+    justify-content: center;
+    cursor: pointer;
+}
+.box_1 {
+    height: 70px;
+    width: 550px;
+    background-color: rgb(129, 202, 244);
+    position: relative;
+    bottom: 340px;
+    left: 20px;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.box_1 img {
+    height: 30px;
+    width: 30px;
+    position: relative; 
+    top: 20px; 
+    left: 20px;
+    cursor: pointer;
+}
+
+.box_1 p {
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.image1 img{
+    height: 500px;
+    width: 1240px;
+    border-radius: 3%;
+    position: relative;
+    left: 160px;
+    bottom: 350px;
+}
+.image2 img{
+    height: 500px;
+    width: 1240px;
+    border-radius: 3%;
+    position: relative;
+    left: 160px;
+    bottom: 300px;
+}
+.bottom_box{
+    background-color: rgb(2, 2, 73);
+    height: 100px;
+    width: 1250px;
+    border-radius: 10px;
+    position: relative;
+    left: 150px;
+    bottom: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.bottom_box img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    
+    cursor: pointer; 
+}
+.bottom_box p{
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.bottom_box button{
+    background-color: rgb(2, 2, 73);
+    color: white;
+    border-radius: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+    border-color: white;
+    cursor: pointer;
+}
+.pics img{
+    height: 700px;
+    width: 550px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-left: 150px;
+    position: relative;
+    bottom: 200px;
+}
+.pics_2 img{
+    height: 500px;
+    width: 1240px;
+    border-radius: 3%;
+    position: relative;
+    left: 160px;
+    bottom: 150px;
+}
+.pics_3 img{
+    height: 500px;
+    width: 1240px;
+    border-radius: 3%;
+    position: relative;
+    left: 160px;
+    bottom: 100px;
+}
+.menu {
+    background: white;
+    padding: 20px;
+    list-style: none;
+}
+.menu li {
+    display: block;
+    padding: 12px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.footer {
+    background: #f5f5f5;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    border-top: 2px solid #ddd;
+    position: relative;
+    left: 100px;
+}
+.social p{
+    position: relative;
+    left: 900px;
+    bottom: 30px;
+}
+.social .icon {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+    position: relative;
+    top: -70px;
+    left: 1000px;
+}
+.rectangle{
+    background-color: aqua;
+    height: 40px;
+    width: 1800px;
+}
+.rectangle_1{
+    background-color: rgb(2, 2, 73);
+    height: 20px;
+    width: 1800px;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        height: 200px;
+        
+    }
+
+    .navbar .logo p {
+        font-size: 24px;
+        text-align: center;
+        margin-right: 300px;
+    }
+    .navbar img{
+        position: relative;
+        right: 300px;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        gap: 20px; 
+    }
+    
+    .nav-links li {
+        font-size: 20px;
+    }
+    
+
+    .tag {
+        flex-direction: row;
+        align-items: center;
+        margin: 10px 0;
+        margin-top: 5000px;
+    }
+
+    .tag img {
+        height: 25px;
+        width: 25px;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .one {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        position: static;
+    }
+
+    .input-box {
+        font-size: 20px;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .search-btn {
+        margin-left: 0;
+        width: 100%;
+        position: relative;
+        top: 100px;
+    }
+
+    .special-fares {
+        text-align: center;
+        margin: 20px auto;
+        position: relative;
+        top: 100px;
+    }
+
+    .special-fares button {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .six img,
+    .image1 img,
+    .image2 img {
+        width: 100%;
+        height: auto;
+        left: 0;
+        position: static;
+    }
+    .pics img{
+        height: 400px;
+        width: 390px;
+        position: relative;
+        top: 20px;
+        right: 80px;
+    }
+    .pics_2 img{
+        height: 400px;
+        width: 390px;
+        top: 30px;
+        margin-right: 300px;
+    }
+    .pics_3 img{
+        height: 300px;
+        width: 390px;
+        margin-right: 300px;
+        position: relative;
+        top: 50px;
+    }
+
+    .arrow,
+    .right_arrow {
+        display: none; 
+    }
+
+    .recharges,
+    .bill {
+        width: 400px;
+        height: 500px;
+        position: static;
+        margin-bottom: 20px;
+        flex-direction: column;
+        display: flex;
+        
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        bottom: 100px;
+        left: -50px;
+    }
+    .icon_1
+    {
+        position: relative;
+        top: -80px;
+        left: 3px;
+    }
+    .icon_2{
+        position: relative;
+        bottom: 200px;
+        left: 120px;
+    }
+    .icon_4{
+        position: relative;
+        bottom: 100px;
+        left: -3px;
+    }
+    .icon_5{
+        margin-top: 150px;
+        position: relative;
+        left: 110px;
+    }
+
+    .box
+     {
+        width: 400px;
+        height: 300px;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: -150px;
+    }
+
+    .bottom_box {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        position: static;
+    }
+
+    .bottom_box button {
+        width: 80%;
+        margin-top: 10px;
+        position: relative;
+        right: 50px;
+    }
+    .menu{
+        position: relative;
+        top: 100px;
+    }
+
+    .footer {
+        text-align: center;
+        position: relative;
+        top: 100px;
+        display: flex;
+        width: 100%;
+        margin-right: 180px;
+    }
+
+    .social p {
+        text-align: center;
+        position: static;
+        width: 100%;
+        margin-left: 150px;
+    }
+
+    .social .icon {
+        position: relative;
+        left: 130px;
+        top: -3px;
+        flex-direction: row;
+        display: inline;
+    }
+    .social a{
+        display:inline-block;
+        flex-direction:column;
+    }
+
+    .rectangle,
+    .rectangle_1 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
